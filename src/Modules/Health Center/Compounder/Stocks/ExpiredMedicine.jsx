@@ -65,7 +65,7 @@ function ExpiredMedicine() {
         <button
           style={{
             padding: "10px 20px",
-            backgroundColor: "#6D28D9", // Apply custom color
+            backgroundColor: "#15ABFF", // Apply custom color
             color: "white",
             border: "none",
             borderRadius: "5px",
@@ -147,8 +147,8 @@ function ExpiredMedicine() {
         <button
           style={{
             padding: "8px 16px",
-            border: "1px solid #6D28D9", // Apply custom border color
-            backgroundColor: activePage === 1 ? "#ddd" : "#6D28D9", // Apply custom background color
+            border: "1px solid #15ABFF", // Apply custom border color
+            backgroundColor: activePage === 1 ? "#ddd" : "#15ABFF", // Apply custom background color
             color: activePage === 1 ? "#999" : "#fff",
             borderRadius: "5px",
             cursor: activePage === 1 ? "not-allowed" : "pointer",
@@ -167,8 +167,8 @@ function ExpiredMedicine() {
         <button
           style={{
             padding: "8px 16px",
-            border: "1px solid #6D28D9", // Apply custom border color
-            backgroundColor: activePage === 3 ? "#ddd" : "#6D28D9", // Apply custom background color
+            border: "1px solid #15ABFF", // Apply custom border color
+            backgroundColor: activePage === 3 ? "#ddd" : "#15ABFF", // Apply custom background color
             color: activePage === 3 ? "#999" : "#fff",
             borderRadius: "5px",
             cursor: activePage === 3 ? "not-allowed" : "pointer",

@@ -24,6 +24,43 @@ function AddStock() {
         minHeight: "500px",
       }}
     >
+      <div
+        style={{
+          textAlign: "center",
+          fontSize: "1.2rem",
+          fontWeight: "400",
+          marginBottom: "1rem",
+        }}
+      >
+        Insert Data using Excel File
+      </div>
+
+      <form>
+        <FileInput
+          label="Report"
+          id="report"
+          placeholder="Choose File"
+          mb="sm"
+        />
+
+        <Group position="center" mt="lg">
+          <Button
+            type="submit"
+            style={{ backgroundColor: "#15ABFF" }} // Custom purple color for submit button
+          >
+            Submit
+          </Button>
+          <Button
+            variant="outline"
+            leftIcon={<DownloadSimple size={20} />}
+            style={{ borderColor: "#15ABFF", color: "#15ABFF" }} // Custom purple outline and text color
+          >
+            Download Example
+          </Button>
+        </Group>
+      </form>
+
+      <Divider my="lg" label="OR" labelPosition="center" />
       <form>
         <TextInput
           label="Brand Name"
@@ -32,13 +69,13 @@ function AddStock() {
           rightSection={
             <Button
               variant="filled"
-              color="#6D28D9" // Changed to custom purple color
+              color="#15ABFF" // Changed to custom purple color
               size="xs"
               style={{
                 height: "100%",
                 display: "flex",
                 alignItems: "center",
-                backgroundColor: "#6D28D9", // Ensure custom color is applied
+                backgroundColor: "#15ABFF", // Ensure custom color is applied
               }}
             >
               <MagnifyingGlass size={20} weight="fill" />
@@ -87,49 +124,8 @@ function AddStock() {
         />
 
         <Group position="center" mt="lg">
-          <Button
-            type="submit"
-            style={{ backgroundColor: "#6D28D9" }} // Custom purple color for submit button
-          >
+          <Button type="submit" style={{ backgroundColor: "#15ABFF" }}>
             Submit
-          </Button>
-        </Group>
-      </form>
-
-      <Divider my="lg" label="OR" labelPosition="center" />
-
-      <div
-        style={{
-          textAlign: "center",
-          fontSize: "1.2rem",
-          fontWeight: "400",
-          marginBottom: "1rem",
-        }}
-      >
-        Insert Data using Excel File
-      </div>
-
-      <form>
-        <FileInput
-          label="Report"
-          id="report"
-          placeholder="Choose File"
-          mb="sm"
-        />
-
-        <Group position="center" mt="lg">
-          <Button
-            type="submit"
-            style={{ backgroundColor: "#6D28D9" }} // Custom purple color for submit button
-          >
-            Submit
-          </Button>
-          <Button
-            variant="outline"
-            leftIcon={<DownloadSimple size={20} />}
-            style={{ borderColor: "#6D28D9", color: "#6D28D9" }} // Custom purple outline and text color
-          >
-            Download Example
           </Button>
         </Group>
       </form>

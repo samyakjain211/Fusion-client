@@ -12,7 +12,7 @@ function ManageStock() {
   const tabsListStyle = {
     display: "flex",
     justifyContent: "center", // Keep the tabs centered
-    borderBottom: "1px solid #6D28D9", // Maintain border color for the bottom
+    borderBottom: "1px solid #15ABFF", // Maintain border color for the bottom
     maxWidth: "100%", // Adjust width of the Tabs list if necessary
     margin: "0 auto", // Center align the Tabs list
   };
@@ -52,7 +52,7 @@ function ManageStock() {
 
       <style>{`
         .mantine-Tabs-tab[data-active] {
-          border-bottom: 3px solid #6d28d9 !important; /* Purple underline for active tab */
+          border-bottom: 3px solid #15ABFF !important; /* Purple underline for active tab */
         }
       `}</style>
     </Container>

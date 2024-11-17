@@ -30,7 +30,7 @@ function EditThreshold() {
                 height: "100%",
                 display: "flex",
                 alignItems: "center",
-                backgroundColor: "#6D28D9", // Apply custom color
+                backgroundColor: "#15ABFF", // Apply custom color
               }}
             >
               <MagnifyingGlass size={20} weight="fill" />
@@ -63,7 +63,7 @@ function EditThreshold() {
         <Group position="center" mt="lg">
           <Button
             type="submit"
-            style={{ backgroundColor: "#6D28D9", color: "white" }} // Apply custom color to submit button
+            style={{ backgroundColor: "#15ABFF", color: "white" }} // Apply custom color to submit button
           >
             Edit Threshold
           </Button>
