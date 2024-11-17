@@ -10,11 +10,11 @@ function EditThreshold() {
       radius="md"
       p="lg"
       style={{
-        maxWidth: "800px",
+        maxWidth: "2000px",
         margin: "0 auto",
         width: "100%",
         marginTop: "20px",
-        minHeight: "500px",
+        minHeight: "400px",
       }} // Added minHeight for stability
     >
       <form>

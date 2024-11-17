@@ -59,7 +59,7 @@ function AddMedicineForm() {
         <Group position="right" mt="lg">
           <Button
             type="submit"
-            style={{ backgroundColor: "#6D28D9", color: "white" }} // Apply custom color to submit button
+            style={{ backgroundColor: "#15ABFF", color: "white" }} // Apply custom color to submit button
           >
             Submit
           </Button>
@@ -90,7 +90,7 @@ function AddMedicineForm() {
         <Group position="center" mt="lg">
           <Button
             type="submit"
-            style={{ backgroundColor: "#6D28D9", color: "white" }} // Custom color for submit button
+            style={{ backgroundColor: "#15ABFF", color: "white" }} // Custom color for submit button
           >
             Submit
           </Button>
@@ -98,8 +98,8 @@ function AddMedicineForm() {
             variant="outline"
             leftIcon={<DownloadSimple size={20} />}
             style={{
-              borderColor: "#6D28D9", // Apply custom border color for outlined button
-              color: "#6D28D9", // Custom text color for outlined button
+              borderColor: "#15ABFF", // Apply custom border color for outlined button
+              color: "#15ABFF", // Custom text color for outlined button
             }}
           >
             Download Example
