@@ -29,21 +29,21 @@ function EditThreshold() {
             placeholder="Brand Name"
             rightSection={
               <Button
-                variant="filled"
+                variant="subtle"
                 size="xs"
+                p={0}
                 style={{
-                  height: "100%",
+                  backgroundColor: "transparent",
                   display: "flex",
                   alignItems: "center",
-                  backgroundColor: "#15ABFF", // Apply custom color
+                  justifyContent: "center",
+                  height: "100%",
                 }}
               >
-                <MagnifyingGlass size={20} weight="fill" />
-                Search
+                <MagnifyingGlass size={20} weight="fill" color="#15ABFF" />
               </Button>
             }
-            mb="sm"
-            styles={{ rightSection: { width: "100px" } }} // Adjust width for consistency
+            styles={{ rightSection: { width: "40px", padding: "0" } }}
           />
 
           <TextInput
